@@ -1,0 +1,26 @@
+.divider {
+    border-top: 1px solid black; /* 定義分隔線的樣式，可以根據您的喜好進行調整 */
+    margin-top: 0; /* 可以調整分隔線與 navbar 的間距 */
+    margin-bottom: 5px; /* 加入下方間隔 */
+}
+
+.btn-outline-success {
+    background-color: orangered;
+    color: white;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: orangered;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+
+.navbar-brand {
+    color: orangered;
+}
+
